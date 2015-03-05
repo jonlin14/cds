@@ -15,6 +15,10 @@
             return $this->$album_title;
         }
 
+        static function getAll() {
+            return $_SESSION['list_of_cds'];
+        }
+
 
 
     }
